@@ -66,11 +66,6 @@ dependencies {
         exclude group: "com.google.guava"
         exclude group: "io.netty"
     }
-    compile(project(":proxy:velocity")) {
-        exclude group: "com.google.code.gson"
-        exclude group: "com.google.guava"
-        exclude group: "io.netty"
-    }
     compile(project(":server:bukkit")) {
         exclude group: "com.google.code.gson"
         exclude group: "com.google.guava"
